@@ -1,0 +1,163 @@
+*{box-sizing:border-box}
+body{
+	font-family: Arimo;
+	margin:0;
+	color:#222;
+	background:#ebebeb;
+}
+
+.container, .container_3, .container_4{
+  max-width:1100px;
+  margin:0 auto;
+  padding:0 12px
+}
+
+.container_2{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 17px;
+}
+
+.action{
+  color:#222
+}
+
+.black_font{
+  color:#252525;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 5px 0px;
+}
+
+.small_font{
+  font-weight: 400px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.green_font{
+  color:#00a650;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.blue_font{
+  color:#3483fa;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.labels_font{
+  color:#000;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.title{  
+  margin: 0 0 8px;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.labels_button, .labels_button_2, .labels_button_3, .labels_button_4, .labels_button_5, .labels_button_6{
+  background: #3483fa;
+  color: #fff;
+  padding: 7px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 11px;
+  border: none;
+  margin-top: 14px;
+  cursor: pointer;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.labels_button_2{margin-top: 46px;}
+.labels_button_3{margin-top: 16px;}
+.labels_button_4{margin-top: 25px; padding: 7px 23px;}
+.labels_button_5{margin-top: 13px; padding: 7px 23px;}
+.labels_button_6{margin-top: 13px; padding: 7px 20px;}
+
+.button_7, .button_8, .button_9{
+  display: inline-block;
+  background: #3483fa;
+  font-family: Arimo;
+  font-size: 16px;
+  color: #fff;
+  border-color: transparent;
+  padding: 0 24px;
+  margin: 0 0 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  line-height: 48px;
+  text-align: center;
+  appearance: auto;
+  width: 100%;
+}
+.button_9{
+  margin: 8px 0;
+  line-height: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  width: auto;
+  margin-left: 6px;
+  padding: 0 12px;
+}
+.button_8{
+  font-weight: 500;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  line-height: 50px;
+  margin: 0;
+}
+
+.deals h2{
+  font-size:18px;
+  margin:16px 0 8px;
+}
+.deal-list{
+  display:flex;
+  overflow-x:auto;
+  gap:12px;
+  padding-bottom:8px;
+}
+.deal-card{
+  flex:0 0 120px;
+  background:#fff;
+  border-radius:8px;
+  text-decoration:none;
+  color:#222;
+  padding:8px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.deal-card img{
+  width:100%;
+  height:auto;
+  border-radius:4px;
+  margin-bottom:6px;
+}
+.deal-title{
+  font-size:14px;
+  margin-bottom:4px;
+}
+.deal-price{
+  font-size:16px;
+  font-weight:700;
+  color:#3483fa;
+}
