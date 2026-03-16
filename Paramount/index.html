@@ -12,18 +12,28 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://kit.fontawesome.com/f267de4358.js" crossorigin="anonymous"></script>
+    <style>
+      .no_scroll{
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .no_scroll::-webkit-scrollbar {
+        display:none;
+      }
+    </style>
   </head>
   <body class="text-white no-underline">
     <header class="bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w828-q80/cbs_page_attribute/60/13/91/122b6406-b5cc-4830-8474-10762c816d42.jpg?format=webp')] lg:bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/60/13/90/687c687c-5736-4c54-8f09-57f71139570f.jpg?format=webp')] h-[calc(100vh-24px)] md:h-[calc(100vh-32px)] min-h-[500px] max-h-[812px] md:min-h-[800px] md:max-h-[1366px] lg:min-h-[675px] 2xl:height-[calc(100vh-48px)] 2xl:min-h-[800px] bg-position-[50%] bg-cover bg-no-repeat font-[Proxima Nova Regular, sans-serif] -z-10">
       <div class="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent to-black z-2 h-[calc(100vh-24px)] md:h-[calc(100vh-32px)] min-h-[500px] max-h-[812px] md:min-h-[800px] md:max-h-[1366px] lg:min-h-[675px] 2xl:height-[calc(100vh-48px)] 2xl:min-h-[800px] relative">
-        <div class="flex justify-between px-6 py-7 md:px-10 md:py-9 lg:py-4 2xl:pr-30 2xl:pl-24 bg-linear-to-b from-black/70 to-transparent sticky top-0">
+        <div class="flex justify-between px-6 py-7 md:px-10 md:py-9 lg:py-4 2xl:pr-30 2xl:pl-24 bg-linear-to-b from-black/70 to-transparent sticky top-0 z-10">
           <div class="flex gap-2 lg:py-4">
             <span class="font-normal text-xs lg:font-medium lg:text-sm text-[#999] leading-[18px]">MARSHALS</span>
             <span class="font-semibold text-xs lg:text-sm text-white leading-[18px]">NOW STREAMING</span>
           </div>
           <div class="leading-[16px]"> 
             <a class="no-underline text-white text-sm hover:text-[#999] tracking-wider" href="https://www.paramountplus.com/account/signin/">
-              INICIAR SESION
+              LOG IN
             </a>
             <button class="-bg-linear-225 from-[#0037c5] to-[#0064ff] rounded-md cursor-pointer font-medium py-[14px] px-[38px] text-base leading-[16px] ml-[18px] tracking-wider text-white transition duration-200 ease-in hover:from-[#0064ff] to-[#0037c5] hidden lg:inline-block">GET STARTED</button>
           </div>
@@ -70,7 +80,7 @@
         <p class="font-medium md:font-normal text-xs md:text-lg leading-[14px] md:leading-[22px] text-center"><b>Save</b> with an annual plan!ᐩ</p>
       </div>
       <div class="flex flex-col justify-center px-[20px] md:px-[40px] md:mx-auto md:py-5 md:gap-3 lg:py-4 mt-[26px] md:mt-[6px] w-[100%] max-w-[1024px] box-border">
-        <div class="grid grid-cols-2 gap-3 md:grid-cols-[49%_25.5%_25.5%]">
+        <div class="grid grid-cols-2 gap-3 md:grid-cols-[49%_25.5%_25.5%] box-border">
           <div class="bg-linear-to-t from-[#fff]/10 to-[#fff]/0 flex relative justify-center items-left h-[102px] md:h-[134px] lg:h-[146px] hidden md:flex flex-col md:max-w-[507px]">
             <span class="text-[14px] md:text-lg tracking-wider font-bold leading-[14px] md:leading-[22px] text-left pl-[14px]">Plans</span>
           </div>
@@ -209,29 +219,224 @@
         </div>
       </div>
     </section>
-    <section class="bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1500-q80/cbs_page_attribute/41/70/95/cb920d7d-c941-4324-a459-22d9257c1223.jpg?format=webp')] -z-10 h-[100%] w-[100%] bg-top-right bg-cover bg-no-repeat text-center relative box-border">
-      <div class="flex flex-col justify-center py-12 px-[20px]">
-        <h2 class="text-3xl leading-[0.95px] mb-[22px] mx-auto font-bold tracking-tight">EXCLUSIVE ORIGINALS</h2>
-        <p class="text-sm leading-[1.375] mx-auto">Meet captivating characters, explore new worlds and enjoy fan favorites you can't find anywhere else.</p>
+    <section class="bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1500-q80/cbs_page_attribute/41/70/95/cb920d7d-c941-4324-a459-22d9257c1223.jpg?format=webp')] lg:bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/41/70/93/733945bf-2c72-4f4e-b3f1-f53739789c82.jpg?format=webp')] -z-10 h-[95vh] min-h-[720px] md:min-h-[900px] lg:min-h-[578px] 2xl:min-h-[720px] max-h-[1024px] bg-top lg:bg-right bg-cover bg-no-repeat text-center relative box-border">
+      <div class="flex flex-col justify-center py-12 lg:py-14 px-[20px] md:px-[260px] lg:px-[36px] 2xl:px-[100px] lg:text-left lg:items-start lg:w-[45%] 2xl:w-[47%]">
+        <h2 class="text-3xl md:text-5xl 2xl:text-6xl leading-[0.95px] md:leading-[52px] lg:leading-0.95 2xl:leading-[56px] mb-[22px] md:mb-[10px] lg:mb-[14px] lg:max-w-[553px] 2xl:max-w-[700px] font-black tracking-tight">EXCLUSIVE ORIGINALS</h2>
+        <p class="text-sm md:text-base 2xl:text-xl leading-[1.375] lg:mb-[30px]">Meet captivating characters, explore new worlds and enjoy fan favorites you can't find anywhere else.</p>
+        <button class="hidden lg:flex -bg-linear-225 from-[#0037c5] to-[#0064ff] rounded-md cursor-pointer font-medium py-[14px] px-[42px] 2xl:py-[22px] 2xl:px-[74px] text-sm 2xl:text-xl leading-[16px] 2xl:leading-[24px] tracking-wide transition duration-200 ease-in hover:from-[#0064ff] to-[#0037c5] mb-[50px]">GET STARTED</button>
       </div>
-      <div class="absolute bottom-[14px] box-border px-[20px] w-[100%] box-content hidden">
-        <div class="flex overflow-x-auto gap-[10px]">
-          <div class="w-[160px] rounded-lg">
-            <img class="min-h-[70px] w-[100%]" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/41/78/97/f8f6e545-7c9f-4bdf-9343-e0032a855a03.jpg?format=webp" alt="">
+      <div class="absolute bottom-[14px] left-0 right-0 box-border px-[20px] md:px-[30px] lg:px-[40px] 2xl:px-[100px] snap-x w-full overflow-x-auto overflow-y-hidden no_scroll">
+        <div class="gap-[10px] relative grid grid-flow-col auto-cols-[calc((100%-20px)/3)] md:auto-cols-[calc((100%-30px)/4)] lg:auto-cols-[calc((100%-40px)/7)]">
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/41/78/97/f8f6e545-7c9f-4bdf-9343-e0032a855a03.jpg?format=webp" alt="">
           </div>
-          <div class="w-[160px] rounded-lg">
-            <img class="min-h-[70px] w-[100%]" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/41/78/97/f8f6e545-7c9f-4bdf-9343-e0032a855a03.jpg?format=webp" alt="">
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/12/72/15/36f4f3b4-fae5-4bf3-9eee-51dbb6ea08e6.jpg?format=webp" alt="">
           </div>
-          <div class="w-[160px] rounded-lg">
-            <img class="min-h-[70px] w-[100%]" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/41/78/97/f8f6e545-7c9f-4bdf-9343-e0032a855a03.jpg?format=webp" alt="">
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/57/94/16/9d4b26ad-dfc8-4e3b-97ab-c19ba314f9a2.jpg?format=webp" alt="">
           </div>
-          <div class="w-[160px] rounded-lg">
-            <img class="min-h-[70px] w-[100%]" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/41/78/97/f8f6e545-7c9f-4bdf-9343-e0032a855a03.jpg?format=webp" alt="">
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/45/55/92/161cfaa4-0d8b-469b-bfaf-c22cace40f8d.jpg?format=webp" alt="">
           </div>
-          <div class="w-[160px] rounded-lg">
-            <img class="min-h-[70px] w-[100%]" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/41/78/97/f8f6e545-7c9f-4bdf-9343-e0032a855a03.jpg?format=webp" alt="">
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/81/29/30/84729b44-3530-4ba7-9baa-6f7021539f71.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/45/57/14/6f5e1e81-58d8-4426-80b7-327231fbc2f7.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/81/29/26/67045140-d41e-4472-b0e8-08ee7d4dd29b.jpg?format=webp" alt="">
           </div>
         </div>
       </div>
     </section>
+    <section class="bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1500-q80/cbs_page_attribute/01/22/31/d42bbe6f-93e4-4ea4-931c-b901a5bf5a4b.jpg?format=webp')] lg:bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1440-q80/cbs_page_attribute/01/22/29/c0f8b211-c100-44d6-959c-23275086340a.jpg?format=webp')] lg:flex lg:items-center -z-10 h-[95vh] min-h-[900px] md:min-h-[900px] lg:min-h-[578px] max-h-[1024px] bg-center lg:bg-right bg-cover bg-no-repeat text-center relative box-border">
+      <div class="flex flex-col justify-center md:items-center w-[100%] py-[32px] md:py-[48px] lg:py-0 px-[22px] md:px-[40px] 2xl:px-[95px] lg:text-left lg:items-start">
+        <h2 class="text-3xl md:text-5xl 2xl:text-6xl leading-none 2xl:leading-[56px] mb-[10px] lg:mb-[14px] w-auto md:w-[50%] lg:w-[40%] font-black tracking-tight">LIVE SPORTS</h2>
+        <p class="text-sm md:text-base 2xl:text-xl leading-[1.375] lg:mb-[32px] w-auto md:w-[50%] lg:w-[40%]">Stream the NFL on CBS, UFC, and the UEFA Champions League. Upgrade to the Premium plan to watch Men’s March Madness and more on your local CBS station.</p>
+        <img class="hidden lg:block 2xl:hidden h-auto object-cover w-[417px] object-center mb-[32px]" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1440-q80/cbs_page_attribute/81/32/69/e6cc9bb4-9dbb-4047-a4a9-913d2fe6f8fa.png?format=webp" alt="">
+        <img class="hidden 2xl:block h-auto object-cover w-[908px] object-center mb-[32px]" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/81/32/71/0bd424f1-fecd-4a31-8d2f-325f558b33a4.png?format=webp" alt="">
+        <button class="hidden lg:flex -bg-linear-225 from-[#0037c5] to-[#0064ff] rounded-md cursor-pointer font-medium py-[14px] px-[42px] 2xl:py-[22px] 2xl:px-[74px] text-sm 2xl:text-xl leading-[16px] 2xl:leading-[24px] tracking-wide transition duration-200 ease-in hover:from-[#0064ff] to-[#0037c5] mb-[50px]">GET STARTED</button>
+      </div>
+      <div class="absolute bottom-[24px] box-border px-[20px] md:px-[30px] lg:px-[40px] 2xl:px-[100px] w-[100%] lg:hidden">
+        <div class="relative">
+          <img class="mx-auto h-auto object-cover w-[235px] md:w-[318px] object-center" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1440-q80/cbs_page_attribute/81/32/69/e6cc9bb4-9dbb-4047-a4a9-913d2fe6f8fa.png?format=webp" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1500-q80/cbs_page_attribute/97/55/40/f9f16cee-4ee8-4136-a957-761112807dba.jpg?format=webp')] lg:bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/97/55/38/ead47cee-bb66-43b3-9ce1-fce5a54581c7.jpg?format=webp')] lg:flex lg:items-center -z-10 h-[95vh] min-h-[900px] md:min-h-[900px] lg:min-h-[578px] max-h-[1024px] bg-[50%_50%] lg:bg-right bg-cover bg-no-repeat text-center relative box-border">
+      <div class="flex flex-col justify-center md:items-center lg:h-[80%] w-[100%] py-[32px] md:py-[48px] lg:py-0 px-[22px] md:px-[40px] 2xl:px-[95px] lg:text-left lg:items-start">
+        <h2 class="text-3xl md:text-5xl 2xl:text-6xl leading-none 2xl:leading-[56px] mb-[10px] lg:mb-[14px] w-auto md:w-[50%] lg:w-[45%] font-black tracking-tight">THE HOME OF UFC</h2>
+        <p class="text-sm md:text-base 2xl:text-xl leading-[1.375] lg:mb-[28%] 2xl:mb-[10%] w-auto md:w-[50%] lg:w-[45%]">From prelims to main cards, stream all UFC numbered events and Fight Nights live and on demand.</p>
+        <button class="hidden lg:flex lg:align -bg-linear-225 from-[#0037c5] to-[#0064ff] rounded-md cursor-pointer font-medium py-[14px] px-[42px] 2xl:py-[22px] 2xl:px-[74px] text-sm 2xl:text-xl leading-[16px] 2xl:leading-[24px] tracking-wide transition duration-200 ease-in hover:from-[#0064ff] to-[#0037c5]">GET STARTED</button>
+      </div>
+    </section>
+    <section class="bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1500-q80/cbs_page_attribute/81/25/10/81a5552f-a8f5-4f00-9840-2030fc2d0373.jpg?format=webp')] lg:bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1440-q80/cbs_page_attribute/81/25/08/199cb563-89a1-487f-a68d-d8d5d4b8f0b2.jpg?format=webp')] -z-10 h-[95vh] min-h-[720px] md:min-h-[900px] lg:min-h-[578px] 2xl:min-h-[720px] max-h-[1024px] bg-top lg:bg-right bg-cover bg-no-repeat text-center relative box-border">
+      <div class="flex flex-col justify-center py-12 lg:py-14 2xl:py-[16] px-[20px] md:px-[260px] lg:px-[36px] 2xl:px-[100px] lg:text-left lg:items-start lg:w-[45%] 2xl:w-[47%]">
+        <h2 class="text-3xl md:text-5xl 2xl:text-6xl leading-[0.95px] md:leading-[52px] lg:leading-0.95 2xl:leading-[56px] mb-[22px] md:mb-[10px] lg:mb-[14px] lg:max-w-[553px] font-black tracking-tight">BLOCKBUSTER MOVIES</h2>
+        <p class="text-sm md:text-base 2xl:text-xl leading-[1.375] lg:mb-[30px]">Stream new movies like The Running Man, Roofman, and The Naked Gun.</p>
+        <button class="hidden lg:flex -bg-linear-225 from-[#0037c5] to-[#0064ff] rounded-md cursor-pointer font-medium py-[14px] px-[42px] 2xl:py-[22px] 2xl:px-[74px] text-sm 2xl:text-xl leading-[16px] 2xl:leading-[24px] tracking-wide transition duration-200 ease-in hover:from-[#0064ff] to-[#0037c5] mb-[50px]">GET STARTED</button>
+      </div>
+      <div class="absolute bottom-[14px] left-0 right-0 box-border px-[20px] md:px-[30px] lg:px-[40px] 2xl:px-[100px] snap-x w-full overflow-x-auto overflow-y-hidden no_scroll">
+        <div class="gap-[10px] relative grid grid-flow-col auto-cols-[calc((100%-20px)/3)] md:auto-cols-[calc((100%-30px)/4)] lg:auto-cols-[calc((100%-40px)/7)]">
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/81/14/49/cdd032be-04d6-4bca-8ff2-98d05b7ec3cc.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/58/54/29/99cbd898-4fc1-4c64-8e7c-7ce595ce74fe.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/81/14/77/e202e1a8-d2dd-4275-9722-f88f4624d07b.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/81/14/79/6917e77a-8735-4325-b383-aef76b9d4e40.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/58/54/76/8cc7819d-c075-4ccb-9d7c-2758818a96fc.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/58/54/92/52bf3034-39f1-4bbb-93ac-1fd1e916f7a0.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/58/55/05/b651d457-66f6-478c-99cf-9e645b225dde.jpg?format=webp" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1500-q80/cbs_page_attribute/00/56/78/68a3dd96-e05a-46fe-968e-f40116f759dd.jpg?format=webp')] lg:bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/00/56/76/1cd6bedb-41aa-4dee-aa75-cc1f62613ffa.jpg?format=webp')] -z-10 h-[95vh] min-h-[720px] md:min-h-[900px] lg:min-h-[578px] 2xl:min-h-[720px] max-h-[1024px] bg-top lg:bg-right bg-cover bg-no-repeat text-center relative box-border">
+      <div class="flex flex-col justify-center py-12 lg:py-14 px-[20px] md:px-[260px] lg:px-[36px] 2xl:px-[100px] lg:text-left lg:items-start lg:w-[45%] 2xl:w-[47%]">
+        <h2 class="text-3xl md:text-5xl 2xl:text-6xl md:leading-[52px] lg:leading-0.95 2xl:leading-[56px] mb-[22px] md:mb-[10px] lg:mb-[14px] lg:max-w-[553px] 2xl:max-w-[800px] font-black tracking-tight">THE STREAMING HOME OF SHOWTIME®</h2>
+        <p class="text-sm md:text-base 2xl:text-xl leading-[1.375] lg:mb-[30px]">Access all of SHOWTIME® when you sign up for the Premium plan.</p>
+        <button class="hidden lg:flex -bg-linear-225 from-[#0037c5] to-[#0064ff] rounded-md cursor-pointer font-medium py-[14px] px-[42px] 2xl:py-[22px] 2xl:px-[74px] text-sm 2xl:text-xl leading-[16px] 2xl:leading-[24px] tracking-wide transition duration-200 ease-in hover:from-[#0064ff] to-[#0037c5] mb-[50px]">GET STARTED</button>
+      </div>
+      <div class="absolute bottom-[14px] left-0 right-0 box-border px-[20px] md:px-[30px] lg:px-[40px] 2xl:px-[100px] snap-x w-full overflow-x-auto overflow-y-hidden no_scroll">
+        <div class="gap-[10px] relative grid grid-flow-col auto-cols-[calc((100%-20px)/3)] md:auto-cols-[calc((100%-30px)/4)] lg:auto-cols-[calc((100%-40px)/7)]">
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/45/61/80/a901cc73-e4c5-48a8-806e-671059c5fddf.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/24/98/62/15a9eec4-644e-4f1d-a834-5eb6b855848a.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/45/61/31/508a3f33-bec1-4835-8c3f-a58d038b0185.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/45/76/09/a06e02b9-8302-4bd9-8091-67ef331f12b9.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/45/69/18/cb5aeaca-bdcf-442c-a9d0-1c49896b9406.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/45/69/31/8af02e01-fa0f-42c7-a541-978604c32bf5.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/45/69/44/8a197b58-982e-410a-9fac-d52313855ecf.jpg?format=webp" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1500-q80/cbs_page_attribute/07/62/26/1823d8d7-7ae1-4099-b344-d6bb9450f2d3.jpg?format=webp')] lg:bg-[url('https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1440-q80/cbs_page_attribute/07/62/24/472eb790-8e3e-4899-be7a-7bac550d8880.jpg?format=webp')] -z-10 h-[95vh] min-h-[720px] md:min-h-[900px] lg:min-h-[578px] 2xl:min-h-[720px] max-h-[1024px] bg-top lg:bg-right bg-cover bg-no-repeat text-center relative box-border">
+      <div class="flex flex-col justify-center py-12 lg:py-14 2xl:py-16 px-[20px] md:px-[215px] lg:px-[36px] 2xl:px-[100px] lg:text-left lg:items-start lg:w-[43%] 2xl:w-[47%]">
+        <h2 class="text-3xl md:text-5xl 2xl:text-6xl leading-[0.95px] md:leading-[52px] lg:leading-0.95 2xl:leading-[56px] mb-[22px] md:mb-[10px] lg:mb-[14px] lg:max-w-[553px] font-black tracking-tight">FAMILY FUN</h2>
+        <p class="text-sm md:text-base 2xl:text-xl leading-[1.375] lg:mb-[30px]">Gear up for action-packed adventures the whole family will enjoy. Plus, create kid-friendly profiles just for the little ones.</p>
+        <button class="hidden lg:flex -bg-linear-225 from-[#0037c5] to-[#0064ff] rounded-md cursor-pointer font-medium py-[14px] px-[42px] 2xl:py-[22px] 2xl:px-[74px] text-sm 2xl:text-xl leading-[16px] 2xl:leading-[24px] tracking-wide transition duration-200 ease-in hover:from-[#0064ff] to-[#0037c5] mb-[50px]">GET STARTED</button>
+      </div>
+      <div class="absolute bottom-[14px] left-0 right-0 box-border px-[20px] md:px-[30px] lg:px-[40px] 2xl:px-[100px] snap-x w-full overflow-x-auto overflow-y-hidden no_scroll">
+        <div class="gap-[10px] relative grid grid-flow-col auto-cols-[calc((100%-20px)/3)] md:auto-cols-[calc((100%-30px)/4)] lg:auto-cols-[calc((100%-40px)/7)]">
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/07/64/59/1788160d-ea4f-4662-b11d-6d56ea12a161.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/71/66/44/6a937eb4-e9c2-41b2-a4c5-d56bc7a9343c.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/01/72/77/2e470e88-94db-41eb-98f7-ce63baeedb60.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/07/64/77/9ad2b8ae-9a70-4fb8-b374-036e850e8652.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/07/64/84/25113432-be33-403a-80de-d9d9b853a7bd.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/07/64/90/f9e42a65-d4d3-4b45-8aed-1cead0d79e84.jpg?format=webp" alt="">
+          </div>
+          <div class="snap-center">
+            <img class="h-auto w-full rounded-lg object-cover" src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/07/64/95/e24fa384-3ad0-4ffe-91a9-421561bf47bd.jpg?format=webp" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black flex items-center justify-center md:justify-start w-[100%] text-center box-border min-h-[418px]">
+      <div class="flex flex-col w-auto text-[#999] text-center items-center p-10 text-xs font-medium md:hidden">
+        <img class="opacity-40 h-[30px] 2xl:h-[60px] w-[216px] 2xl:w-[180px] mb-[36px] 2xl:mb-[48px]" src="https://wwwimage-us.pplusstatic.com/base/files/cbs_page_attribute/32/79/1/image_124a1063-414d-4caf-aef6-8adea89c3455.svg" alt="">
+        <div class="flex gap-3 text-center justify-center">
+          <a class="hover:text-white no-underline tracking-wide leading-[14px] mb-[10px]" href="">Terms of Use</a>
+          <p class="leading-[14px] text-[8px]">|</p>
+          <a class="hover:text-white no-underline tracking-wide leading-[14px]" href="">Privacy Policy</a>
+        </div>
+        <a class=" hover:text-white no-underline tracking-wide leading-[14px]" href="">Your Privacy Choices</a>
+        <div class="flex gap-8 text-2xl py-3">
+          <a class="opacity-[0.6] w-[20px] hover:text-white no-underline" href="https://www.facebook.com/paramountplus"><i class="fa-brands fa-square-facebook"></i></a>
+          <a class="opacity-[0.6] w-[20px] hover:text-white" href="https://twitter.com/paramountplus"><i class="fa-brands fa-x-twitter"></i></a>
+          <a class="opacity-[0.6] w-[20px] no-underline hover:text-white" href="https://www.youtube.com/paramountplus"><i class="fa-brands fa-youtube"></i></a>
+          <a class="opacity-[0.6] w-[20px] no-underline hover:text-white" href="https://www.instagram.com/paramountplus"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="leading-[16px] mb-[22px] w-[336px]">Paramount+ © 2026 Paramount Skydance Corporation. All Rights Reserved.</p>
+        <a href="hover:text-white no-underline tracking-wide leading-[14px]">Site Index <i class="fa-solid fa-angle-down"></i></a>
+      </div>
+      <div class="hidden md:flex flex-col w-[90%] max-w-[1400px] text-[#999] pt-21 2xl:pt-18 pb-16 text-xs font-medium px-12 2xl:px-24">
+        <img class="opacity-40 h-[30px] 2xl:h-[60px] w-[136px] 2xl:w-[180px] mb-[36px] 2xl:mb-[48px]" src="https://wwwimage-us.pplusstatic.com/base/files/cbs_page_attribute/32/79/1/image_124a1063-414d-4caf-aef6-8adea89c3455.svg" alt="">
+        <div class="grid grid-cols-[20%_20%_20%_28%] gap-6">
+          <div class="flex flex-col text-left gap-2">
+            <h3 class="text-sm font-semibold text-white opacity-80">Site Navigation</h3>
+            <ul class="list-none flex flex-col gap-1.5 font-normal">
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/home/">Home</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/shows/">Shows</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/movies/">Movies</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/collections/">Collections</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/live-tv/">Live TV</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/collections/sports-hub/">Sports</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/brands/">Brands</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/news/">News</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/sneak-peak/">Sneak Peak</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/global/">Paramount+ Global</a></li>
+            </ul>
+          </div>
+          <div class="flex flex-col text-left gap-2">
+            <h3 class="text-sm font-semibold text-white opacity-80">Privacy & Terms</h3>
+            <ul class="list-none flex flex-col gap-1.5 font-normal">
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.pplus.legal/terms">Terms of Use</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://legal.paramount.com/us/en/pplus/gift-terms">Gift Card Terms</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.pplus.legal/privacy">Privacy Policy</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="#">Your Privacy Choices</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://privacy.paramount.com/en/childrens">Children's Privacy Policy</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://privacy.paramount.com/en/policy#additional-information-us-states">California Notice</a></li>
+            </ul>
+          </div>
+          <div class="flex flex-col text-left gap-2">
+            <h3 class="text-sm font-semibold text-white opacity-80">Information</h3>
+            <ul class="list-none flex flex-col gap-1.5 font-normal">
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://help.paramountplus.com/">Help/Contact Us</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramountplus.com/closed-captioning/">Closed Captioning</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="http://www.tvguidelines.org/index.html">Ratings Guidelines</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.paramount.com/careers/streaming-jobs">Careers</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://www.viacomcbs.com/">About Paramount</a></li>
+              <li><a class="hover:text-white no-underline leading-[14px]" href="https://help.paramountplus.com/s/article/PD-What-is-Paramount-s-anti-bias-policy-regarding-content">Anti-Bias Statement</a></li>
+            </ul>
+          </div>
+          <div class="flex flex-col text-left gap-2 box-border w-">
+            <h3 class="text-sm font-semibold text-white opacity-80">Follow Us</h3>
+            <ul class="list-none gap-5 font-normal flex text-2xl text-left">
+              <li><a class="opacity-[0.6] hover:text-white no-underline" href="https://www.facebook.com/paramountplus"><i class="fa-brands fa-square-facebook"></i></a>
+              <li><a class="opacity-[0.6] hover:text-white" href="https://twitter.com/paramountplus"><i class="fa-brands fa-x-twitter"></i></a>
+              <li><a class="opacity-[0.6] no-underline hover:text-white" href="https://www.youtube.com/paramountplus"><i class="fa-brands fa-youtube"></i></a>
+              <li><a class="opacity-[0.6] no-underline hover:text-white" href="https://www.instagram.com/paramountplus"><i class="fa-brands fa-instagram"></i></a>
+            </ul>
+          </div>
+        </div>
+        <p class="leading-[16px] text-left mt-[24px] font-normal">Paramount+ © 2026 Paramount Skydance Corporation. All Rights Reserved.</p>
+      </div>
+    </footer>
   </body>
